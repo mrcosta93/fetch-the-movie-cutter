@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 
 comeco = input("Digite a hora de começo: ")
