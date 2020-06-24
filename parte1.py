@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
 import os
 
-comeco = input("Digite a hora de começo: ")
-fim = input("Digite a hora de fim: ")
+comeco = raw_input("Digite a hora de começo: ")
+fim = raw_input("Digite a hora de fim: ")
 
 def main():
     cmd = "ffmpeg -i /home/marcos/Downloads/input.mp4 -ss " + comeco + " -to " + fim + " -c:v copy -c:a copy /home/marcos/Downloads/output.mp4"
